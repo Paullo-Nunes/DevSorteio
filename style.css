@@ -20,13 +20,43 @@ h2 {
     width: 290px;
     font-size: 32px;
     text-align: center;
+    font-weight: 400;
 }
 
 div {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 62px;
+}
+
+input {
+    width: 342px;
+    height: 74px;
+    border-radius: 14px;
+    background-color: #545353;
+    outline: none;
+    border: none;
+    line-height: 74px;
+    align-items: center;
+    color: #fff;
+    font-size: 40px;
+    padding-left: 16px;
+
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 16px;
+
+}
+/*Remoção das setinhas de aumentar e diminuir chamadas de spinners*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+
 }
 
 button {
