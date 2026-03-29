@@ -59,6 +59,15 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 
+.result {
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    width: 200px;
+    margin: 20px auto;
+}
+
 button {
     display: block;
     margin: 79px auto;
